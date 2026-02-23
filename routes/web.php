@@ -40,3 +40,5 @@ Route::resource('photos', PhotoController::class)->only([
   //  'create', 'store', 'update', 'destroy'
 //]);
 
+Route::get('/greeting', [WelcomeController::class, 'greeting']);
+
